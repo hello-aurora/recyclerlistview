@@ -2,7 +2,7 @@
 set -e
 
 echo "Running TSLint..."
-tslint 'src/**/*.{ts,tsx}'
+tslint --fix 'src/**/*.{ts,tsx}'
 
 echo "Build started..."
 echo "Removing old builds..."
